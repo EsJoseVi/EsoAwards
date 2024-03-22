@@ -17,7 +17,7 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
 }
@@ -35,7 +35,25 @@ body {
     font-family: poppins;
     text-decoration: none;
     font-weight: 400;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+
 }
 .nav li :hover{
     color: #C04BF2;
+}
+
+.container {
+    margin: 1rem;
+    text-align: center;
+}
+
+.active {
+    background-color: #281259;
+}
+
+.Welcome {
+    font-family: poppins;
 }
