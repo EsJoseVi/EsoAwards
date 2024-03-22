@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Sobre from "./pages/Sobre";
 import Votar from "./pages/Votar";
 import Home from "./pages/Home";
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
+      <Footer />
     </>
   )
 }

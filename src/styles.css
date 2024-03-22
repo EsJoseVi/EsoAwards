@@ -54,6 +54,15 @@ body {
     background-color: #281259;
 }
 
-.Welcome {
+.Title {
     font-family: poppins;
+}
+
+.Footer {
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: monospace;
+    font-size: 1rem;
 }
