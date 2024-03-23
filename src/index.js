@@ -1,3 +1,4 @@
+/* codigo que regula el renderizado de la App*/
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';

@@ -1,3 +1,4 @@
+/*Codigo principal de la aplicacion lo que apareze aqui es lo que se renderiza en el vdom y luego en el dom*/
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Sobre from "./pages/Sobre";

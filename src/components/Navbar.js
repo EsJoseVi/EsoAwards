@@ -1,3 +1,4 @@
+/*Componente custom que permite la navegacion*/
 import { Link, useMatch, useResolvedPath} from "react-router-dom"
 
 export default function Navbar() {
