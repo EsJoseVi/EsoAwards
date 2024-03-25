@@ -1,8 +1,8 @@
 /*Un componenete custom que agrega un pie de pagina*/
-export default function Footer() {
+export default function Footer({content}) {
     return (
         <footer className="Footer">
-            <p>Derechos de autor © 2025. Lancia Awards</p>
+            <p>{ content }</p>
         </footer>
     )
 }
