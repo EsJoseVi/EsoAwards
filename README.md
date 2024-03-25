@@ -40,6 +40,7 @@ Nominados:
 13.	Rubén Sendón
 14.	Esteban
 15.	Javier
+
 Repetidor de la eso:
 Cuando menos te esperabas que alguien nuevo pudiera aparecer en tu clase y cambiarlo todo, ahí aparecieron estas personas.
 Todos ellos han pasado por una situación difícil, y no les ha resultado sencillo asimilar que debían repetir y pasar a ser unos veteranos rodeados de novatos. Sin embargo, su gran capacidad de resiliencia les ha permitido afrontar con buena cara la adversidad y formar parte del grupo, siendo en muchas ocasiones piezas muy especiales que han dejado a su paso sonrisas y amistades.
@@ -60,6 +61,7 @@ Nominados:
 13.	Patricia
 14.	Samara
 15.	Rubén
+
 Duo de la eso:
 Si te digo la palabra dúo, es imposible que no se te vengan a la cabeza varios nombres de personas que han logrado forjar una gran amistad y que han permanecido unidos durante años, logrando crear un dúo icónico que quedará por el resto de la eternidad en la mente de las personas.
 Premio dedicado al dúo de la eso. Esas personas que difícilmente las ves separadas, y que siempre que están juntos generan buenas sensaciones con las personas que se rodean.
@@ -79,6 +81,7 @@ Nominados:
 13.	Yugueros y Viti
 14.	Marina y Adriana
 15.	Los Carreño
+
 Inocente de la eso:
 Si existe algo más puro que estas personas, es la naturaleza, nada más.
 Todavía siguen conservando el niño que llevan dentro, y lo manifiestan muy a menudo. Estar a su lado sólo puede causar paz y felicidad.
@@ -95,6 +98,7 @@ Nominados:
 9.	Erika
 10.	Patricia Quasi
 Si se os ocurren más, adelante, metedlos.
+
 Bonachón de la eso:
 No hay que confundirlos con los inocentes. Los otros son ingenuos, estos no.
 Los bonachones se encargan de ayudar a la gente desinteresadamente y a repartir generosidad por el mundo entero. Son la definición de buenas personas. Siempre que pueden, estarán ahí y te regalarán una sonrisa.
@@ -114,6 +118,7 @@ Nominados:
 8.	Armando
 9.	Clara
 10.	Rodrigo Carreño
+
 Lover de la eso:
 El instituto es un lugar gobernado por la pubertad: El paraíso de las hormonas.
 Sobra decir que el amor y todo lo que ello conlleva es uno de los temas más frecuentes durante la eso.  A todo el mundo en algún momento de nuestra vida nos ha gustado alguien del instituto, seamos sinceros y no nos engañemos.
@@ -136,6 +141,7 @@ Nominados:
 13.	Olga
 14.	Mateo
 15.	Alberto
+
 Profesor de la eso:
 Hay profesores que logran dejar una huella en ti para toda la vida. Esos profesores que en su momento te devolvieron las ganas por estudiar y saber de la asignatura, que te lograron valorar como alumno y te apreciaron casi como a un hijo.
 Desde que algunos se fueron, el color que tenían sus asignaturas se convirtió en gris.
@@ -154,6 +160,7 @@ Nominados:
 11.	Patas crazys
 12.	Ricardo
 13.	Rachel
+
 Liada de la eso (premio honorífico):
 La rutina escolar puede llegar a ser aburrida y repetitiva con el paso del tiempo...
 Por ello, de vez en cuando hay que condimentarla para que la monótona vida del estudiante se vuelva un poco más interesante, aunque eso conlleve el riesgo de acabar con un parte.
@@ -168,6 +175,7 @@ Las liadas nominadas son:
 7.	El petardo
 8.	El portátil
 Quedan otras dos para rellenar. Hay que preguntar.
+
 Liante de la eso:
 Hay personas que no temen a excederse con sus acciones. Son libres, y su instinto de rebeldía es superior a todo lo demás. ¿Qué importa lo que hagan? ¿Acaso los van a matar?
 La vida pirata es la vida mejor, y está gente lo demuestra a la perfección; al igual que también demuestran que para morir cuerdo, hay que vivir loco.
@@ -184,6 +192,7 @@ Premio dedicado al liante de la eso. Esa persona a la que más partes se ha enfr
 10.	Yugueros
 11.	Victor Alonso
 Meted más vosotros si eso, no sé quién más la lía
+
 Aplicado de la eso:
 Disciplina y constancia. Estas personas no han fallado ni un sólo curso en su cometido, y encima lo han cumplido por lo alto. Los “TERMINATORS” de la eso.
 A todos nos da pereza estudiar, pero hay gente, guerreros en este mundo, que son capaces de combatir ese aburrimiento y derrotarlo. ¿Acaso han suspendido alguna vez un examen? La gran mayoría te responderá que no, y es normal. Son máquinas diseñadas para “matar” exámenes.
@@ -204,6 +213,7 @@ Los nominados son:
 13.	Sandruli
 14.	Sofía Gutierrez
 15.	Miguel García
+
 Gracioso de la eso:
 Son héroes, héroes que se sacrifican por la clase con un único cometido: hacer reír a todo el mundo, cueste lo que cueste.
 Sin ellos, las clases no serían lo mismo. Se siente un vacío inmenso cuando faltan, un vacío imposible de rellenar, porque sólo ellos tienen esa magia que alegra los corazones de todos.
