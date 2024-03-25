@@ -1,7 +1,7 @@
 /* pagina donde se vota*/
 import { useEffect, useState } from "react";
 import { app } from "../FireBaseConfig"
-import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 export default function Votar (){
     const auth = getAuth();
@@ -15,22 +15,12 @@ export default function Votar (){
         setData({ ...data, ...inputs})
     }
     const addData = () => {
-        signInWithEmailAndPassword(auth, data.email, data.password)
+        createUserWithEmailAndPassword(auth, data.email, data.password)
     }
     const handlelogout = () => {
         signOut(auth);
     }
 
-    useEffect(() => {
-        onAuthStateChanged(auth, (data) => {
-          if(data){
-            alert("Sesion Inicada")
-          }
-          else {
-            alert('Sesion Cerrada')
-          }
-        })
-      }, [])
     return(
         <div>
             <h1 className="Title">Inicia sesion usando tu correo de @educal.jcyl.es</h1>
