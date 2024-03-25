@@ -17,7 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
-      <Footer content="Derechos de autor © 2025. Lancia Awards"/>
+      <Footer content="Derechos de autor © 2024. Lancia Awards"/>
     </>
   )
 }
