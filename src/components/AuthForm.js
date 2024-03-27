@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import { auth } from '../FireBaseConfig'
-import { createUserWithEmailAndPassword, onAuthStateChanged, sendEmailVerification, signInWithEmailAndPassword } from 'firebase/auth'
+import { onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth'
+import { useNavigate } from 'react-router-dom';
+
+export const logged = false
 
 export const AuthForm = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
+    const navigate = useNavigate();
 
-    const signUp = async () => {
+    const logIn = async () => {
         try {
-            await createUserWithEmailAndPassword(auth, email, password);
-            
-            await sendEmailVerification(auth.currentUser);
+            await signInWithEmailAndPassword(auth, email, password);
         } catch(err) {
             console.error(err.message)
             if (err.message === "Firebase: Error (auth/invalid-credential)."){
@@ -22,15 +24,6 @@ export const AuthForm = () => {
             }
         }
     };
-
-    onAuthStateChanged(auth, (user) => {
-        if (user) {
-            setError("Por Favor confirma el correo")
-        }
-        if (user.emailVerified){
-            setError("Correo Confirmado")
-        }
-    })
 
     return (
         <div className="PageContainer">
@@ -51,7 +44,7 @@ export const AuthForm = () => {
                     placeholder="contraseña"
                     onChange={(e) => setPassword(e.target.value)}
                 />
-                <button className="LoginButton" onClick={signUp}>Iniciar Sesion</button>
+                <button className="LoginButton" onClick={logIn}>Iniciar Sesion</button>
             </div>
         </div>
     )
