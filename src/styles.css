@@ -66,3 +66,31 @@ body {
     font-family: monospace;
     font-size: 1rem;
 }
+
+.InputField {
+    color: #070926;
+    background-color: #ffffff;
+    border-color: #070926;
+    margin: 1rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+
+.FormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LoginButton {
+    font-size: 1.5rem;
+    background-color: #281259;
+    color: #ffffff;
+    border-radius: 2rem;
+    padding: .75rem;
+    margin: 1rem;
+    border-width: 0rem;
+    font-family: poppins;
+}
