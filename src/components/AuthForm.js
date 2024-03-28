@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { auth } from '../FireBaseConfig'
-import { onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth'
-import { useNavigate } from 'react-router-dom';
+import {  signInWithEmailAndPassword } from 'firebase/auth'
 
 export const logged = false
 
@@ -9,7 +8,6 @@ export const AuthForm = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
-    const navigate = useNavigate();
 
     const logIn = async () => {
         try {
@@ -28,8 +26,8 @@ export const AuthForm = () => {
     return (
         <div className="PageContainer">
             <h1 className="Title">Inicia sesion usando tu correo de @educal.jcyl.es</h1>
-            <p>{error}</p>
             <div className="FormContainer">
+                <p className='Error'>{error}</p>
                 <input
                     className="InputField"
                     name="email"

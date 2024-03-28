@@ -94,3 +94,17 @@ body {
     border-width: 0rem;
     font-family: poppins;
 }
+
+.Error {
+    font-family: poppins;
+    background-color: red;
+    color: white;
+    margin: 0px;
+    padding: 1rem;
+    width: 30rem;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
