@@ -10,16 +10,18 @@ import Login from "./pages/Login";
 function App() {
   return(
     <>
+    <div className="page-contaniner">
       <Navbar />
-        <div className="container">
-          <Routes>
-            <Route path="/login" element={<Login />} />
-            <Route path="/votar" element={<Votar />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </div>
+      <div className="container">
+         <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/votar" element={<Votar />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
       <Footer content="Derechos de autor © 2024. Lancia Awards"/>
+    </div>
     </>
   )
 }

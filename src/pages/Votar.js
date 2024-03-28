@@ -2,6 +2,7 @@
 import { useNavigate } from "react-router-dom"
 import { auth } from "../FireBaseConfig"
 import { onAuthStateChanged } from "firebase/auth";
+import Categorys from "../components/Categorys"
 
 export default function Votar (){
     const navigate = useNavigate();
@@ -11,6 +12,6 @@ export default function Votar (){
         }
     })
     return (
-        <h1 className="Title">Las votaciones no estan disponibles</h1>
+        <Categorys/>
     )
 }

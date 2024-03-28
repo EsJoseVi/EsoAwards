@@ -8,6 +8,7 @@ export const AuthForm = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
+    const [errorName, setErrorName] = useState("")
 
     const logIn = async () => {
         try {
@@ -16,9 +17,11 @@ export const AuthForm = () => {
             console.error(err.message)
             if (err.message === "Firebase: Error (auth/invalid-credential)."){
                 setError("Contraseña o correo incorrectos")
+                setErrorName("Error")
             }
             if (err.message === "Firebase: Error (auth/invalid-email)."){
                 setError("El correo no es valido")
+                setErrorName("Error")
             }
         }
     };
@@ -27,7 +30,7 @@ export const AuthForm = () => {
         <div className="PageContainer">
             <h1 className="Title">Inicia sesion usando tu correo de @educal.jcyl.es</h1>
             <div className="FormContainer">
-                <p className='Error'>{error}</p>
+                <p className={errorName}>{error}</p>
                 <input
                     className="InputField"
                     name="email"
