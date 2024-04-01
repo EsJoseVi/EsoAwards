@@ -59,7 +59,8 @@ body {
 
 .form-label {
     font-family: poppins;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
+    font-weight: bold;
     line-height: 1.1;
     margin-left: 1rem;
 }
@@ -68,7 +69,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     padding: 0.5rem;
 }
 
@@ -102,14 +103,35 @@ input[type="radio"]:checked::before {
     transform: scale(1);
 }
 
-.Categorys h2 {
-    font-size: 2.2rem;
+.Default {
+    font-size: 1.8rem;
     font-family: poppins;
     margin: 0;
     margin-bottom: 1rem;
     color: white;
     background-color: #281259;
     text-align: center;
+}
+
+.TitlePink {
+    font-size: 2rem;
+    font-family: poppins;
+    margin: 0;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: #591259;
+    text-align: center;
+}
+
+.SubmitVoteButton {
+    background-color: #281259;
+    color: white;
+    border-width: 0;
+    font-size: 1.5rem;
+    font-family: poppins;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .container {

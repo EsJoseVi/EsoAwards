@@ -6,6 +6,7 @@ import Votar from "./pages/Votar";
 import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
+import Thanks from "./pages/Thanks";
 
 function App() {
   return(
@@ -17,6 +18,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/votar" element={<Votar />} />
           <Route path="/sobre" element={<Sobre />} />
+          <Route path="/gracias" element={<Thanks />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
