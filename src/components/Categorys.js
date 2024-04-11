@@ -1,5 +1,4 @@
 /*Sistema de Votacion por categorias y un form */
-
 import { db } from "../FireBaseConfig"
 import { addDoc, collection } from "firebase/firestore"
 import { auth } from "../FireBaseConfig"
@@ -18,41 +17,62 @@ export default function Categorys (){
     })
 
     const values = [
-        { id: "A", title: "Deportista de la ESO 🥇", color:"Default", nominados: [
+        { id: "A", title: "Deportista de la ESO 🥇", color:"TitleRed", nominados: [
             {id: "A1", name: "Miguel Ángel González Gago"},
-            {id: "A2", name: "Adriana Urdiales Fernández"},
-            {id: "A3", name: "Kiara Campaz Orobio"},
-            {id: "A4", name: "Álvaro Vieites Fernández"},
-            {id: "A5", name: "Alan Fernández Blanco"},
-            {id: "A6", name: "Aitor Jal Palacios"},
-            {id: "A7", name: "Martín Robles Franco"},
-            {id: "A8", name: "Marco Fernández Alonso"},
-            {id: "A9", name: "María Villayandre López"},
-            {id: "A10", name: "Hevert Rodríguez Mancilla"},
-            {id: "A11", name: "Mateo Fernández Cascallana"},
-            {id: "A12", name: "Lucía Castañón Hevia"},
-            {id: "A13", name: "Rubén Sendón Méndez"},
-            {id: "A14", name: "Esteban Cortés Perdomo"},
-            {id: "A15", name: "Daniela Pérez Gómez"}
-        ]},
-        { id: "B", title: "Repetidor de la ESO 🔁", color:"Default", nominados: [
+            {id: "A2", name: "Kiara Campaz Orobio"},
+            {id: "A3", name: "Álvaro Vieites Fernández"},
+            {id: "A4", name: "Alan Fernández Blanco"},
+            {id: "A5", name: "Aitor Jal Palacios"},
+            {id: "A6", name: "Martín Robles Franco"},
+            {id: "A7", name: "Marco Fernández Alonso"},
+            {id: "A8", name: "María Villayandre López"},
+            {id: "A9", name: "Hevert Rodríguez Mancilla"},
+            {id: "A10", name: "Mateo Fernández Cascallana"},
+            {id: "A11", name: "Lucía Castañón Hevia"},
+            {id: "A12", name: "Rubén Sendón Méndez"},
+            {id: "A13", name: "Esteban Cortés Perdomo"},
+            {id: "A14", name: "Daniela Pérez Gómez"},
+            {id: "A15", name: "César García Vicente"},
+            {id: "A16", name: "Laura González Soto"},
+            {id: "A17", name: "Leyre Rodríguez Ruíz"},
+            {id: "A18", name: "Adriana Urdiales Fernández"},
+            {id: "A19", name: "César García Vicente"}
+        ],about1: "No lo dudes. Si se caen, volverán a levantarse."
+        ,about2:"Campeón no es aquel que logra la victoria, campeón es aquel que logra recuperarse después de haber fallado." +
+        "Esta gente son verdaderos campeones," +
+        "bestias insaciables que cada día logran tener el coraje y la disciplina suficiente para ponerse a prueba."
+        ,about3:"Premio dedicado a aquellos quienes," +
+        "durante 4 años, han dedicado su vida al deporte," +
+        "llevando su cuerpo hasta el límite con el objetivo de alzarse campeones en su disciplina y ser la mejor versión de ellos mismos."},
+        { id: "B", title: "Repetidor de la ESO 🔁", color:"TitleBlack", nominados: [
             {id: "B1", name: "Mario Presa Prieto"},
             {id: "B2", name: "Lucía Castañón Hevia"},
             {id: "B3", name: "Inés Díez Fernández"},
             {id: "B4", name: "Railin Yan"},
             {id: "B5", name: "Lucía Hermosilla Aláez"},
             {id: "B6", name: "Claudia Puerta Cañón"},
-            {id: "B7", name: "Yara Esteban Andrés"},
-            {id: "B8", name: "Andrea Palanga Mahumane"},
-            {id: "B9", name: "Mateo Fernández Cascallan"},
-            {id: "B10", name: "Alan Fernández Blanco"},
-            {id: "B11", name: "Izan Ramírez Sánche"},
-            {id: "B12", name: "Patricia Gutiérrez Silva"},
-            {id: "B13", name: "Samara Jiménez Sabio"},
-            {id: "B14", name: "Rubén Sendón Méndez"},
-            {id: "B15", name: "Izan(Buscar Apellidos)"}
-        ]},
-        { id: "C", title: "Duo de la ESO", color:"Default", nominados: [
+            {id: "B7", name: "Andrea Palanga Mahumane"},
+            {id: "B8", name: "Mateo Fernández Cascallana"},
+            {id: "B9", name: "Alan Fernández Blanco"},
+            {id: "B10", name: "Izan Ramírez Sánchez"},
+            {id: "B11", name: "Patricia Gutiérrez Silva"},
+            {id: "B12", name: "Samara Jiménez Sabio"},
+            {id: "B13", name: "Rubén Sendón Méndez"},
+            {id: "B14", name: "Nicol Rosa Román"},
+            {id: "B15", name: "Iris Ordás Solís"},
+            {id: "B16", name: "Roberto Martínez Rodríguez"},
+            {id: "B17", name: "Yara Esteban Andrés"},
+            {id: "B18", name: "José Carlos Martínez Alonso"},
+            {id: "B19", name: "Karen Betancurt Castañeda"},
+            {id: "B20", name: "Fátima Ghanem Al Hachmi"}
+        ], about1: "Cuando menos te esperabas que alguien nuevo pudiera aparecer en tu clase y cambiarlo todo, ahí aparecieron estas personas."
+        ,about2:"Todos ellos han pasado por una situación difícil," +
+        "y no les ha resultado sencillo asimilar que debían repetir y pasar a ser unos veteranos rodeados de novatos."+
+        "Sin embargo, su gran capacidad de resiliencia les ha permitido afrontar con buena cara la adversidad y formar parte del grupo," +
+        "siendo en muchas ocasiones piezas muy especiales que han dejado a su paso sonrisas y amistades."
+        ,about3:"Premio dedicado al repetidor de la eso." +
+        "Esa persona que mejor ha sabido adaptarse al nuevo entorno y que más buenas sensaciones ha dejado con su presencia."},
+        { id: "C", title: "Dúo de la ESO 🧑🏻‍🤝‍👨🏻", color:"TitleGolden", nominados: [
             {id: "C1", name: "Sandra Marcos Díez e Irene Bernardo Herrero"},
             {id: "C2", name: "Yaiza Estévez Fernández y Carolina Aller Sastre"},
             {id: "C3", name: "Judit Presa Díez y Silvia Martínez González"},
@@ -61,15 +81,22 @@ export default function Categorys (){
             {id: "C6", name: "Javier Mondelo Gómez y Hazma Moataz Al Razouk"},
             {id: "C7", name: "Pedro Veloso Sagües y Sergio Navarro Alonso"},
             {id: "C8", name: "Esteban Cortés Perdomo y Marco Fernández Alonso"},
-            {id: "C9", name: "Jorge Espeso Fonseca y Alberto Iglesias Millán"},
+            {id: "C9", name: "Hugo Barrientos Álvarez y Alberto Iglesias Millán"},
             {id: "C10", name: "Lucia Hermosilla Aláez y Claudia Puerta Cañón"},
             {id: "C11", name: "Christian Barazón Santiago y Alejandro Acedo Cobos"},
             {id: "C12", name: "Nayara Fernández Villacé y Nayara Toribio Valdés"},
             {id: "C13", name: "Diego Yugueros López y Víctor Villayandre López"},
             {id: "C14", name: "Marina Robles Conde y Adriana Urdiales Fernández"},
-            {id: "C15", name: "Hugo Macías Carreño y Rodrigo Macías Carreño"}
-        ]},
-        { id: "D", title: "Inocente de la ESO", color:"Default", nominados: [
+            {id: "C15", name: "Hugo Macías Carreño y Rodrigo Macías Carreño"},
+            {id: "C16", name: "Esther Andrés Corrales y María del Pilar Blanco Saavedra"}
+        ], about1: "Es imposible no reconocerlos, son inseparables."
+        ,about2:"Si te digo la palabra dúo," +
+        "es probable que se te vengan a la cabeza varios nombres de personas que han logrado forjar una gran amistad y que han permanecido unidos durante años," +
+        "logrando crear un dúo icónico que quedará por el resto de la eternidad en la mente de las personas."
+        ,about3:"Premio dedicado al dúo de la eso." +
+        "Esas personas que difícilmente las ves distanciadas," +
+        "dy que siempre que están juntos generan felicidad en su entorno."},
+        { id: "D", title: "Inocente de la ESO 🕊️", color:"TitleGreen", nominados: [
             {id: "D1", name: "José Robles Flórez"},
             {id: "D2", name: "Sergio Furones"},
             {id: "D3", name: "Sandra Marcos Díez"},
@@ -80,17 +107,23 @@ export default function Categorys (){
             {id: "D8", name: "Nube Arias Rodríguez"},
             {id: "D9", name: "Erika Acebes Calvo"},
             {id: "D10", name: "Patricia Lorenzo Crespo"},
-            {id: "D11", name: "BUSCAR!!!"},
-            {id: "D12", name: "BUSCAR!!!"},
-            {id: "D13", name: "BUSCAR!!!"},
-            {id: "D14", name: "BUSCAR!!!"},
-            {id: "D15", name: "BUSCAR!!!"}
-        ]},
-        { id: "E", title: "Bonachon de la ESO", color:"Default", nominados: [
+            {id: "D11", name: "Sarai Fernández Fidalgo"},
+            {id: "D12", name: "Iker Castro Pérez"},
+            {id: "D13", name: "Alejandra de la Puente Gil"},
+            {id: "D14", name: "Luana Carnero Garmón"},
+            {id: "D15", name: "Carmen Saenz de Pipaon Serrano"}
+        ], about1: "Si existe algo más puro que estas personas, es la naturaleza, nada más."
+        ,about2:"Todavía siguen conservando el niño que llevan dentro," +
+        "y lo manifiestan muy a menudo. Estar a su lado sólo puede causar paz y felicidad."
+        ,about3:"Premio dedicado al inocente de la eso." +
+        "Esa persona ingenua que aún conserva su lado más puro." +
+        "Son personas lo más cercanas a la paz que hay y lo más probable es que se sientan culpables si te metes con ellos," +
+        "así que más te vale no hacerlo",},
+        { id: "E", title: "Comodin de la ESO 🦸🏻‍♂️", color:"TitleBlue", nominados: [
             {id: "E1", name: "Adrián Peláez"},
-            {id: "E2", name: "BUSCAR!!!"},
-            {id: "E3", name: "BUSCAR!!!"},
-            {id: "E4", name: "BUSCAR!!!"},
+            {id: "E2", name: "Marina Robles Conde"},
+            {id: "E3", name: "Adriana Urdiales Fernández"},
+            {id: "E4", name: "Silvia Martínez González"},
             {id: "E5", name: "BUSCAR!!!"},
             {id: "E6", name: "BUSCAR!!!"},
             {id: "E7", name: "BUSCAR!!!"},
@@ -102,8 +135,12 @@ export default function Categorys (){
             {id: "E13", name: "BUSCAR!!!"},
             {id: "E14", name: "BUSCAR!!!"},
             {id: "E15", name: "BUSCAR!!!"}
-        ]},
-        { id: "F", title: "Tostado de la ESO", color:"Default", nominados: [
+        ], about1: "No hay que confundirlos con los inocentes. Los otros son ingenuos, estos no."
+        ,about2:"Los bonachones se encargan de ayudar a la gente desinteresadamente y a repartir generosidad por el mundo entero." +
+        "Son la definición de buenas personas." +
+        "Siempre que pueden, estarán ahí y te regalarán una sonrisa."
+        ,about3:"Premio dedicado a bonachón de la eso. Esas buenas personas que te iluminan los días y que siempre están ahí para ayudar y sacarte una sonrisa."},
+        { id: "F", title: "Tostado de la ESO 🍞", color:"TitleBrown", nominados: [
             {id: "F1", name: "Hugo Macías Carreño"},
             {id: "F2", name: "Héctor Cubría Robles"},
             {id: "F3", name: "Diego González García"},
@@ -114,12 +151,20 @@ export default function Categorys (){
             {id: "F8", name: "Armando Suárez Pérez"},
             {id: "F9", name: "Clara López Smith"},
             {id: "F10", name: "Rodrigo Macías Carreño"},
-            {id: "F11", name: "BUSCAR!!!"},
-            {id: "F12", name: "BUSCAR!!!"},
-            {id: "F13", name: "BUSCAR!!!"},
-            {id: "F14", name: "BUSCAR!!!"},
-            {id: "F15", name: "BUSCAR!!!"}
-        ]},
+            {id: "F11", name: "Marcos Samuel Pérez Gil"},
+            {id: "F12", name: "Héctor Are Somboro Gil"},
+            {id: "F13", name: "Daniel Aller Fernández"},
+            {id: "F14", name: "Héctor Fernández Conde"},
+            {id: "F15", name: "César Herreras Rodríguez"},
+            {id: "F16", name: "Cecilia Díez Riaño"}
+        ], about1: "¿Me estabas escuchando cuando te estaba hablando?"
+        ,about2:"Hay gente que es difícil de creer que vivan en el mismo mundo que el resto de los mortales." +
+        "¿En qué estabas pensando mirando al techo? Espabila," +
+        "que el profesor quiere que corrijas el exercise 2 del workbook."
+        ,about3:"Premio dedicado al tostado de la eso." +
+        "Esas personas que parece que no se enteran de nada," +
+        "o al menos lo aparentan. Sin ellos, las clases no serían tan divertidas." +
+        "Dan ese toque de magia que falta para que una clase sea perfecta."},
         { id: "G", title: "Lover de la ESO ❤️", color:"TitlePink", nominados: [
             {id: "G1", name: "Martín Robles Franco"},
             {id: "G2", name: "Silvia Martínez Alonso"},
@@ -135,8 +180,15 @@ export default function Categorys (){
             {id: "G12", name: "Martin García Gutiérrez"},
             {id: "G13", name: "Olga Pérez Lario"},
             {id: "G14", name: "Mateo Fernández Cascallana"},
-            {id: "G15", name: "Alberto Iglesias Millán"}
-        ]},
+            {id: "G15", name: "Alberto Iglesias Millán"},
+            {id: "G16", name: "Nayara Toribio Valdés"}
+        ], about1: "El instituto es un lugar gobernado por la pubertad: El paraíso de las hormonas."
+        ,about2:"Sobra decir que el amor y todo lo que ello conlleva es uno de los temas más frecuentes durante la ESO." +
+        "A todo el mundo en algún momento de nuestra vida nos ha gustado alguien del instituto," +
+        "seamos sinceros y no nos engañemos."
+        ,about3:"Premio dedicado al lover de la Eso." +
+        "Esa persona que más pasiones ha levantado en su paso por la ESO." +
+        "Una persona interesante a ojos de los demás."},
         { id: "H", title: "👨🏻‍🏫 Profesor de la ESO 👩🏻‍🏫", color:"Default", nominados: [
             {id: "H1", name: "Ana María Giganto Fernández"},
             {id: "H2", name: "Luis Cuenya González"},
@@ -148,24 +200,36 @@ export default function Categorys (){
             {id: "H8", name: "Jose Erasmo Caño Luna"},
             {id: "H9", name: "María Fe de la Torre Guerra"},
             {id: "H10", name: "Montserrat Martín Álvarez"},
-            {id: "H11", name: "Roberto de la Fuente Álvarez"},
+            {id: "H11", name: "Sara Salgado Santos"},
             {id: "H12", name: "Ricardo Fernández Vidal"},
             {id: "H13", name: "Raquel Llorente Treceño"},
-            {id: "H14", name: "Mateo Fernández Cascallana"},
-            {id: "H15", name: "Margarita Mencía de Prado"}
-        ]},
+            {id: "H14", name: "Margarita Mencía de Prado"},
+            {id: "H15", name: "Alberto Jesús Lorenzo Harguindey"},
+            {id: "H16", name: "Miriam Amelia Diaz Martinez"}
+        ], about1: "Desde que algunos se fueron, el color que tenían sus asignaturas se convirtió en gris"
+        ,about2:"Hay profesores que logran dejar una huella en ti para toda la vida." +
+        "Esos profesores que en su momento te devolvieron las ganas por estudiar y saber de la asignatura," +
+        "que te lograron valorar como alumno y te apreciaron casi como a un hijo"
+        ,about3:"Premio dedicado al profesor de la ESO." +
+        "Ese profesor implicado, que se esfuerza porque los alumnos aprendan con ganas y porque sus clases sean las mejores." +
+        "Se nota que ser profesor era su vocación"},
         { id: "I", title: "Liada de la ESO 💣", color:"Default", nominados: [
-            {id: "I1", name: "Electricity"},
-            {id: "I2", name: "Firefloor"},
-            {id: "I3", name: "Fireball"},
-            {id: "I4", name: "1945"},
-            {id: "I5", name: "Mesas con pollas y esvásticas"},
-            {id: "I6", name: "CSI: Vaper"},
-            {id: "I7", name: "El petardo"},
-            {id: "I8", name: "El portátil"},
-            {id: "I9", name: "Buscar!!!"},
-            {id: "I10", name: "Buscar!!!"}
-        ]},
+            {id: "I1", name: "Electricity: Cuando lograron que se fuera la electricidad de todo el edificio."},
+            {id: "I2", name: "Firefloor: En su momento el gel hidroalcohólico fue un perfecto combustible para una hoguera en mitad de una clase."},
+            {id: "I3", name: "Fireball: Alguien decidió tirar por una ventana una bola de papel en llamas, que por poco no cayó en la cabeza de una profesora."},
+            {id: "I4", name: "1945: Una clase quedó clausurada por grafitear esvásticas en su interior. 5. CSI: Vaper: Hubo una vez un Vaper que fue pasando de boca en boca, y jefatura se empeñó"},
+            {id: "I5", name: "CSI: Vaper: Hubo una vez un Vaper que fue pasando de boca en boca, y jefatura se empeñó en que iba a encontrar a todo culpable que hubiera estado con él."},
+            {id: "I6", name: "El petardo: Una vez, en medio del instituto, a alguien se le ocurrió prender un gran petardo que acabó retumbando en el centro."},
+            {id: "I7", name: "El portátil: No fue una liada en sí, porque nunca ocurrió, pero el simple hecho de que nos tuvieran encerrados y nos cachearan para que luego resultara que el portátil no había sido robado, si no olvidado, se puede considerar liada."},
+            {id: "I8", name: "La meada de Estopa: Alguien decidió mear en medio de clase en una bolsita."},
+            {id: "I9", name: "Carta Interceptada: Una persona le envio una carta deseandole curiosa a un compañero, y la profesora intercepto dicha carta para luego leerla delante de toda la clase."},
+            {id: "I10", name: "Banana Split casero: Un platano acabo en el techo de una clase de 3 de la ESO"},
+
+        ], about1: "La rutina escolar puede llegar a ser aburrida y repetitiva con el paso del tiempo..." +
+        "Por ello, de vez en cuando hay que condimentarla para que la monótona vida del estudiante se vuelva un poco más interesante," +
+        "aunque eso conlleve el riesgo de acabar con un parte."
+        ,about2:"¿A quién no le gusta el riesgo cuando hay diversión de por medio?"
+        ,about3:"Las liadas nominadas son:"},
         { id: "J", title: "Liante de la ESO 🦹🏻‍♂️", color:"Default", nominados: [
             {id: "J1", name: "Martín Robles Franco"},
             {id: "J2", name: "Christian Barazón Santiago"},
@@ -182,7 +246,15 @@ export default function Categorys (){
             {id: "J13", name: "Buscar!!!"},
             {id: "J14", name: "Buscar!!!"},
             {id: "J15", name: "Buscar!!!"}
-        ]},
+        ], about1: "Hay personas que no temen a excederse con sus acciones." +
+        "Son libres, y su instinto de rebeldía es superior a todo lo demás." +
+        "¿Qué importa lo que hagan? ¿Acaso los van a matar?"
+        ,about2: "La vida pirata es la vida mejor, y está gente lo demuestra a la perfección;" +
+        "al igual que también demuestran que para morir cuerdo, hay que vivir loco."
+        ,about3: "Premio dedicado al liante de la ESO." +
+        "Esa persona a la que más partes se ha enfrentado," +
+        "tantos que incluso no ha podido ir a alguna excursión." +
+        "Es puro espíritu de rebeldía."},
         { id: "K", title: "Aplicado de la ESO 🧠", color:"Default", nominados: [
             {id: "K1", name: "Adriana Urdiales Fernández"},
             {id: "K2", name: "Carlos Llamazares Lorca"},
@@ -199,7 +271,18 @@ export default function Categorys (){
             {id: "K13", name: "Sandra Marcos Díez"},
             {id: "K14", name: "Sofía Gutierrez Carcedo"},
             {id: "K15", name: "Miguel García Sánchez"}
-        ]},
+        ], about1: 'Disciplina y constancia.' +
+        'Estas personas no han fallado ni un sólo curso en su cometido,' +
+        'y encima lo han cumplido por lo alto.' +
+        'los "TERMINATORS" de la ESO'
+        ,about2:'A todos nos da pereza estudiar, pero hay gente,' +
+        'guerreros en este mundo, que son capaces de combatir ese aburrimiento y derrotarlo.' +
+        '¿Acaso han suspendido alguna vez un examen? La gran mayoría te responderá que no,' +
+        'y es normal. Son máquinas diseñadas para “matar” exámenes.'
+        ,about3:"Premio dedicado al aplicado de la eso." +
+        "Esa persona que nunca la has visto sacar menos de un nueve.." +
+        "A parte, trabaja como nadie, y siempre parece estar un paso por delante en todo," +
+        "no sólo en los exámenes."},
         { id: "L", title: "Gracioso de la ESO 🤡", color:"Default", nominados: [
             {id: "L1", name: "Railin Yan"},
             {id: "L2", name: "Jorge San José Martínez"},
@@ -216,7 +299,14 @@ export default function Categorys (){
             {id: "L13", name: "Buscar!!!"},
             {id: "L14", name: "Buscar!!!"},
             {id: "L15", name: "Buscar!!!"}
-        ]}
+        ], about1: "Son héroes, héroes que se sacrifican por la clase con un único cometido: hacer reír a todo el mundo, cueste lo que cueste."
+        ,about2:"Sin ellos, las clases no serían lo mismo." +
+        "Se siente un vacío inmenso cuando faltan, un vacío imposible de rellenar," +
+        "porque sólo ellos tienen esa magia que alegra los corazones de todos."
+        ,about3:"Premio dedicado al gracioso de la eso." +
+        "Esa persona capaz de hacer reír hasta a los profesores," +
+        "hasta a la persona más seria en este mundo." +
+        "Esa persona capaz de hacerte ir al instituto simplemente porque sabes que a su lado te vas a acabar riendo tarde o temprano."}
     ]
 
     const navigate = useNavigate();
@@ -245,13 +335,16 @@ export default function Categorys (){
         <div className="Categorys">
             {values.map(value =>(
                 <>
-                    <h2 className={value.color} key={value.id}>{value.title}</h2>
-                    <form key={value.id} className="form-container">
+                    <h2 className={value.color} key={value.id + 1}>{value.title}</h2>
+                    <p key={value.id + 2}className="about1">{value.about1}</p>
+                    <p key={value.id + 3} className="about2">{value.about2}</p>
+                    <p key={value.id + 4} className="about3">{value.about3}</p>
+                    <form key={value.id + 5} className="form-container">
                         {value.nominados.map(nominado =>(
                             <>
-                                <div className="Candidatos">
-                                    <input onChange={(e) => handleVoting(value.id, e.target.value)} key={nominado.id} type="radio" id={nominado.id} name={value.title} value={nominado.name}/>
-                                    <label className="form-label" key={nominado.id} for={nominado.id}>{nominado.name}</label>
+                                <div className="Candidatos" key={nominado.id}>
+                                    <input onChange={(e) => handleVoting(value.id, e.target.value)} key={nominado.id + 2} type="radio" id={nominado.id} name={value.title} value={nominado.name}/>
+                                    <label className="form-label" key={nominado.id + 1} htmlFor={nominado.id}>{nominado.name}</label>
                                 </div>
                             </>
                         ))}

@@ -7,8 +7,15 @@ import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import Thanks from "./pages/Thanks";
+import { signOut } from "firebase/auth";
+import { auth } from "./FireBaseConfig";
 
 function App() {
+  window.addEventListener("beforeunload", (ev) => {
+    ev.preventDefault();
+    signOut(auth)
+  });
+
   return(
     <>
     <div className="page-contaniner">
