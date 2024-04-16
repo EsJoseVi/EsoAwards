@@ -113,7 +113,7 @@ export default function Categorys (){
             {id: "D13", name: "Luana Carnero Garmón"},
             {id: "D14", name: "Carmen Saenz de Pipaon Serrano"},
             {id: "D15", name: "Aya Dahmouni Hadir"},
-            {id: "D16", name: "Carala Rodriguez Jáñez"},
+            {id: "D16", name: "Carla Rodriguez Jáñez"},
             {id: "D17", name: "Melina Del Rosario Miranda Mejia"}
         ], about1: "Si existe algo más puro que estas personas, es la naturaleza, nada más."
         ,about2:"Todavía siguen conservando el niño que llevan dentro," +
@@ -138,7 +138,7 @@ export default function Categorys (){
             {id: "E13", name: "Irene Bernardo Herrero"},
             {id: "E14", name: "Carlos Llamazares Lorca"},
             {id: "E15", name: "Sara Jimenez Coray"},
-            {id: "E15", name: "Oliver Antonio Vaez Pinales"}
+            {id: "E15", name: "Oliver Antonio Baez Pinales"}
         ], about1: "No hay que confundirlos con los inocentes. Los otros son ingenuos, estos no."
         ,about2:"Los bonachones se encargan de ayudar a la gente desinteresadamente y a repartir generosidad por el mundo entero." +
         "Son la definición de buenas personas." +
