@@ -129,7 +129,7 @@ export default function Categorys (){
             {id: "E4", name: "Sandra Marcos Diez"},
             {id: "E5", name: "José Robles Flores"},
             {id: "E6", name: "Adriana Urdiales Fernandez"},
-            {id: "E7", name: "Carmen Saenz serrano de pipaon"},
+            {id: "E7", name: "Carmen Saenz de Pipaon Serrano"},
             {id: "E8", name: "Pedro Veloso Sagües"},
             {id: "E9", name: "Cecilia Diez Riaño"},
             {id: "E10", name: "David Moran Suarez"},
@@ -160,7 +160,7 @@ export default function Categorys (){
             {id: "F13", name: "Daniel Aller Fernández"},
             {id: "F14", name: "Héctor Fernández Conde"},
             {id: "F15", name: "César Herreras Rodríguez"},
-            {id: "F16", name: "Cecilia Díez Riaño"}
+            {id: "F16", name: "Diego Yugueros López"}
         ], about1: "¿Me estabas escuchando cuando te estaba hablando?"
         ,about2:"Hay gente que es difícil de creer que vivan en el mismo mundo que el resto de los mortales." +
         "¿En qué estabas pensando mirando al techo? Espabila," +
