@@ -32,11 +32,12 @@ export default function Categorys (){
             {id: "A12", name: "Rubén Sendón Méndez"},
             {id: "A13", name: "Esteban Cortés Perdomo"},
             {id: "A14", name: "Daniela Pérez Gómez"},
-            {id: "A15", name: "César García Vicente"},
-            {id: "A16", name: "Laura González Soto"},
-            {id: "A17", name: "Leyre Rodríguez Ruíz"},
+            {id: "A15", name: "Laura González Soto"},
+            {id: "A16", name: "Leyre Rodríguez Ruíz"},
+            {id: "A17", name: "Clara Lopez Smith"},
             {id: "A18", name: "Adriana Urdiales Fernández"},
-            {id: "A19", name: "César García Vicente"}
+            {id: "A19", name: "César García Vicente"},
+            {id: "A18", name: "Mara Moran Garcia"}
         ],about1: "No lo dudes. Si se caen, volverán a levantarse."
         ,about2:"Campeón no es aquel que logra la victoria, campeón es aquel que logra recuperarse después de haber fallado." +
         "Esta gente son verdaderos campeones," +
@@ -85,7 +86,7 @@ export default function Categorys (){
             {id: "C10", name: "Lucia Hermosilla Aláez y Claudia Puerta Cañón"},
             {id: "C11", name: "Christian Barazón Santiago y Alejandro Acedo Cobos"},
             {id: "C12", name: "Nayara Fernández Villacé y Nayara Toribio Valdés"},
-            {id: "C13", name: "Diego Yugueros López y Víctor Villayandre López"},
+            {id: "C13", name: "Diego Yugueros López y César García Vicente"},
             {id: "C14", name: "Marina Robles Conde y Adriana Urdiales Fernández"},
             {id: "C15", name: "Hugo Macías Carreño y Rodrigo Macías Carreño"},
             {id: "C16", name: "Esther Andrés Corrales y María del Pilar Blanco Saavedra"}
@@ -97,21 +98,23 @@ export default function Categorys (){
         "Esas personas que difícilmente las ves distanciadas," +
         "dy que siempre que están juntos generan felicidad en su entorno."},
         { id: "D", title: "Inocente de la ESO 🕊️", color:"TitleGreen", nominados: [
-            {id: "D1", name: "José Robles Flórez"},
-            {id: "D2", name: "Sergio Furones"},
-            {id: "D3", name: "Sandra Marcos Díez"},
-            {id: "D4", name: "Lucía Pulgar Cordero"},
-            {id: "D5", name: "Irene Bernardo Herrero"},
-            {id: "D6", name: "Pedro Veloso Sagües"},
-            {id: "D7", name: "Alonso Rodríguez Ramos"},
-            {id: "D8", name: "Nube Arias Rodríguez"},
-            {id: "D9", name: "Erika Acebes Calvo"},
-            {id: "D10", name: "Patricia Lorenzo Crespo"},
-            {id: "D11", name: "Sarai Fernández Fidalgo"},
-            {id: "D12", name: "Iker Castro Pérez"},
-            {id: "D13", name: "Alejandra de la Puente Gil"},
-            {id: "D14", name: "Luana Carnero Garmón"},
-            {id: "D15", name: "Carmen Saenz de Pipaon Serrano"}
+            {id: "D1", name: "Sergio Furones"},
+            {id: "D2", name: "Sandra Marcos Díez"},
+            {id: "D3", name: "Lucía Pulgar Cordero"},
+            {id: "D4", name: "Irene Bernardo Herrero"},
+            {id: "D5", name: "Pedro Veloso Sagües"},
+            {id: "D6", name: "Alonso Rodríguez Ramos"},
+            {id: "D7", name: "Nube Arias Rodríguez"},
+            {id: "D8", name: "Erika Acebes Calvo"},
+            {id: "D9", name: "Patricia Lorenzo Crespo"},
+            {id: "D10", name: "Sarai Fernández Fidalgo"},
+            {id: "D11", name: "Iker Castro Pérez"},
+            {id: "D12", name: "Alejandra de la Puente Gil"},
+            {id: "D13", name: "Luana Carnero Garmón"},
+            {id: "D14", name: "Carmen Saenz de Pipaon Serrano"},
+            {id: "D15", name: "Aya Dahmouni Hadir"},
+            {id: "D16", name: "Carala Rodriguez Jáñez"},
+            {id: "D17", name: "Melina Del Rosario Miranda Mejia"}
         ], about1: "Si existe algo más puro que estas personas, es la naturaleza, nada más."
         ,about2:"Todavía siguen conservando el niño que llevan dentro," +
         "y lo manifiestan muy a menudo. Estar a su lado sólo puede causar paz y felicidad."
@@ -119,22 +122,23 @@ export default function Categorys (){
         "Esa persona ingenua que aún conserva su lado más puro." +
         "Son personas lo más cercanas a la paz que hay y lo más probable es que se sientan culpables si te metes con ellos," +
         "así que más te vale no hacerlo",},
-        { id: "E", title: "Comodin de la ESO 🦸🏻‍♂️", color:"TitleBlue", nominados: [
-            {id: "E1", name: "Adrián Peláez"},
-            {id: "E2", name: "Marina Robles Conde"},
-            {id: "E3", name: "Adriana Urdiales Fernández"},
-            {id: "E4", name: "Silvia Martínez González"},
-            {id: "E5", name: "BUSCAR!!!"},
-            {id: "E6", name: "BUSCAR!!!"},
-            {id: "E7", name: "BUSCAR!!!"},
-            {id: "E8", name: "BUSCAR!!!"},
-            {id: "E9", name: "BUSCAR!!!"},
-            {id: "E10", name: "BUSCAR!!!"},
-            {id: "E11", name: "BUSCAR!!!"},
-            {id: "E12", name: "BUSCAR!!!"},
-            {id: "E13", name: "BUSCAR!!!"},
-            {id: "E14", name: "BUSCAR!!!"},
-            {id: "E15", name: "BUSCAR!!!"}
+        { id: "E", title: "Bonachon 😁", color:"TitleBlue", nominados: [
+            {id: "E1", name: "Adrian Pelaez Fernandez"},
+            {id: "E2", name: "Hugo Barrientos Alvarez"},
+            {id: "E3", name: "Silvia Martinez Gonzalez"},
+            {id: "E4", name: "Sandra Marcos Diez"},
+            {id: "E5", name: "José Robles Flores"},
+            {id: "E6", name: "Adriana Urdiales Fernandez"},
+            {id: "E7", name: "Carmen Saenz serrano de pipaon"},
+            {id: "E8", name: "Pedro Veloso Sagües"},
+            {id: "E9", name: "Cecilia Diez Riaño"},
+            {id: "E10", name: "David Moran Suarez"},
+            {id: "E11", name: "Sushant Fernandez Dominguez"},
+            {id: "E12", name: "Rebecca Corda Álvarez"},
+            {id: "E13", name: "Irene Bernardo Herrero"},
+            {id: "E14", name: "Carlos Llamazares Lorca"},
+            {id: "E15", name: "Sara Jimenez Coray"},
+            {id: "E15", name: "Oliver Antonio Vaez Pinales"}
         ], about1: "No hay que confundirlos con los inocentes. Los otros son ingenuos, estos no."
         ,about2:"Los bonachones se encargan de ayudar a la gente desinteresadamente y a repartir generosidad por el mundo entero." +
         "Son la definición de buenas personas." +
@@ -189,30 +193,6 @@ export default function Categorys (){
         ,about3:"Premio dedicado al lover de la Eso." +
         "Esa persona que más pasiones ha levantado en su paso por la ESO." +
         "Una persona interesante a ojos de los demás."},
-        { id: "H", title: "👨🏻‍🏫 Profesor de la ESO 👩🏻‍🏫", color:"Default", nominados: [
-            {id: "H1", name: "Ana María Giganto Fernández"},
-            {id: "H2", name: "Luis Cuenya González"},
-            {id: "H3", name: "Ana María Pérez Cubillo"},
-            {id: "H4", name: "Mayela Paramio Vidal"},
-            {id: "H5", name: "Julio César Roblez Vergara"},
-            {id: "H6", name: "Susana López López"},
-            {id: "H7", name: "Alejandro Rodríguez Castro"},
-            {id: "H8", name: "Jose Erasmo Caño Luna"},
-            {id: "H9", name: "María Fe de la Torre Guerra"},
-            {id: "H10", name: "Montserrat Martín Álvarez"},
-            {id: "H11", name: "Sara Salgado Santos"},
-            {id: "H12", name: "Ricardo Fernández Vidal"},
-            {id: "H13", name: "Raquel Llorente Treceño"},
-            {id: "H14", name: "Margarita Mencía de Prado"},
-            {id: "H15", name: "Alberto Jesús Lorenzo Harguindey"},
-            {id: "H16", name: "Miriam Amelia Diaz Martinez"}
-        ], about1: "Desde que algunos se fueron, el color que tenían sus asignaturas se convirtió en gris"
-        ,about2:"Hay profesores que logran dejar una huella en ti para toda la vida." +
-        "Esos profesores que en su momento te devolvieron las ganas por estudiar y saber de la asignatura," +
-        "que te lograron valorar como alumno y te apreciaron casi como a un hijo"
-        ,about3:"Premio dedicado al profesor de la ESO." +
-        "Ese profesor implicado, que se esfuerza porque los alumnos aprendan con ganas y porque sus clases sean las mejores." +
-        "Se nota que ser profesor era su vocación"},
         { id: "I", title: "Liada de la ESO 💣", color:"Default", nominados: [
             {id: "I1", name: "Electricity: Cuando lograron que se fuera la electricidad de todo el edificio."},
             {id: "I2", name: "Firefloor: En su momento el gel hidroalcohólico fue un perfecto combustible para una hoguera en mitad de una clase."},
@@ -223,8 +203,10 @@ export default function Categorys (){
             {id: "I7", name: "El portátil: No fue una liada en sí, porque nunca ocurrió, pero el simple hecho de que nos tuvieran encerrados y nos cachearan para que luego resultara que el portátil no había sido robado, si no olvidado, se puede considerar liada."},
             {id: "I8", name: "La meada de Estopa: Alguien decidió mear en medio de clase en una bolsita."},
             {id: "I9", name: "Carta Interceptada: Una persona le envio una carta deseandole curiosa a un compañero, y la profesora intercepto dicha carta para luego leerla delante de toda la clase."},
-            {id: "I10", name: "Banana Split casero: Un platano acabo en el techo de una clase de 3 de la ESO"},
-
+            {id: "I10", name: "¡Platano Va!: En una clase tiraron un platano pocho contra el techo y se quedo pegado."},
+            {id: "I11", name: "Boquete: un alumno hizo un boquete en una de las paredes."},
+            {id: "I11", name: "Baño de papel: Una vez varias personas se ocuparon de dejar el baño lleno de papel mojado."},
+            {id: "I12", name: "Instituto en cuarentena: A primera hora nos encontramos el instituto cerrado por que alguien habia echado pegamento a las cerraduras."}
         ], about1: "La rutina escolar puede llegar a ser aburrida y repetitiva con el paso del tiempo..." +
         "Por ello, de vez en cuando hay que condimentarla para que la monótona vida del estudiante se vuelva un poco más interesante," +
         "aunque eso conlleve el riesgo de acabar con un parte."
@@ -242,10 +224,12 @@ export default function Categorys (){
             {id: "J9", name: "Railin Yan"},
             {id: "J10", name: "Diego Yugueros López"},
             {id: "J11", name: "Victor Alonso Pérez"},
-            {id: "J12", name: "Buscar!!!"},
-            {id: "J13", name: "Buscar!!!"},
-            {id: "J14", name: "Buscar!!!"},
-            {id: "J15", name: "Buscar!!!"}
+            {id: "J12", name: "Mateo Urdiales Landa"},
+            {id: "J13", name: "Hazma Moataz Al Razouk"},
+            {id: "J14", name: "Alex Mayoral Fernandez"},
+            {id: "J15", name: "Awa Niasse Sene"},
+            {id: "J16", name: "Jesús Bernardo Reguera"}
+
         ], about1: "Hay personas que no temen a excederse con sus acciones." +
         "Son libres, y su instinto de rebeldía es superior a todo lo demás." +
         "¿Qué importa lo que hagan? ¿Acaso los van a matar?"
@@ -270,7 +254,8 @@ export default function Categorys (){
             {id: "K12", name: "Silvia Martínez Alonso"},
             {id: "K13", name: "Sandra Marcos Díez"},
             {id: "K14", name: "Sofía Gutierrez Carcedo"},
-            {id: "K15", name: "Miguel García Sánchez"}
+            {id: "K15", name: "Miguel García Sánchez"},
+            {id: "K15", name: "Alicia Conty Castro"}
         ], about1: 'Disciplina y constancia.' +
         'Estas personas no han fallado ni un sólo curso en su cometido,' +
         'y encima lo han cumplido por lo alto.' +
@@ -295,10 +280,9 @@ export default function Categorys (){
             {id: "L9", name: "Víctor Villayandre López"},
             {id: "L10", name: "Pelayo Prieto Carballo"},
             {id: "L11", name: "Javier Mondelo Gómez"},
-            {id: "L12", name: "Buscar!!!"},
-            {id: "L13", name: "Buscar!!!"},
-            {id: "L14", name: "Buscar!!!"},
-            {id: "L15", name: "Buscar!!!"}
+            {id: "L12", name: "Adrian Pelaez Fernandez"},
+            {id: "L13", name: "Miguel Ángel González Gago"}
+            
         ], about1: "Son héroes, héroes que se sacrifican por la clase con un único cometido: hacer reír a todo el mundo, cueste lo que cueste."
         ,about2:"Sin ellos, las clases no serían lo mismo." +
         "Se siente un vacío inmenso cuando faltan, un vacío imposible de rellenar," +
