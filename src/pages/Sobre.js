@@ -40,10 +40,7 @@ export default function Sobre() {
                 que los premios sean lo más justos y reales posibles. Esperamos vuestra colaboración.
             </p>
             <p className="Info">
-                La primera votación se abrirá el <span>.../4/2024 y terminará el 30/4/2024</span>.
-                En esta primera votación se descartarán a los primeros nominados. En cada categoría hay entre 15 y
-                20 nominados por cada categoría dependiendo del nivel de competitividad.
-                De esos 15-20 nominados, sólo saldrán 4-5 respectivamente.
+                La votación se abrirá el <span>21/4/2024 y terminará el 30/4/2024</span>.
             </p>
             <p className="Info">
                 La segunda votación se abrirá el <span>15/5/2024 y terminará el 10/6/2024</span>.
