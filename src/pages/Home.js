@@ -2,17 +2,34 @@
 import { useState } from "react";
 import Instagram from "../components/Instagram"
 
+
+function getTime(){
+    const endtime = 'April 22 2024 17:30:00 ';
+    const total = Date.parse(endtime) - Date.parse(new Date());
+    const seconds = Math.floor( (total/1000) % 60 );
+    const minutes = Math.floor( (total/1000/60) % 60 );
+    const hours = Math.floor( (total/(1000*60*60)) % 24 );
+    const days = Math.floor( total/(1000*60*60*24) );
+  
+    return {
+      total,
+      days,
+      hours,
+      minutes,
+      seconds
+    };
+  }
+
 export default function Home (){
-    const now = new Date();
     const [day, setDay] = useState(0);
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
     setInterval(function(){
-        setDay(8 - now.getDay());
-        setHours(17 - now.getHours());
-        setMinutes(60 - now.getMinutes());
-        setSeconds(60 - now.getSeconds());
+        setDay(getTime().days);
+        setHours(getTime().hours);
+        setMinutes(getTime().minutes);
+        setSeconds(getTime().seconds);
     }, 1000);
     return (
         <div>
