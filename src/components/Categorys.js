@@ -34,10 +34,10 @@ export default function Categorys (){
             {id: "A14", name: "Daniela Pérez Gómez"},
             {id: "A15", name: "Laura González Soto"},
             {id: "A16", name: "Leyre Rodríguez Ruíz"},
-            {id: "A17", name: "Clara Lopez Smith"},
+            {id: "A17", name: "Clara López Smith"},
             {id: "A18", name: "Adriana Urdiales Fernández"},
             {id: "A19", name: "César García Vicente"},
-            {id: "A18", name: "Mara Moran Garcia"}
+            {id: "A18", name: "Mara Morán García"}
         ],about1: "No lo dudes. Si se caen, volverán a levantarse."
         ,about2:"Campeón no es aquel que logra la victoria, campeón es aquel que logra recuperarse después de haber fallado." +
         "Esta gente son verdaderos campeones," +
@@ -89,7 +89,8 @@ export default function Categorys (){
             {id: "C13", name: "Diego Yugueros López y César García Vicente"},
             {id: "C14", name: "Marina Robles Conde y Adriana Urdiales Fernández"},
             {id: "C15", name: "Hugo Macías Carreño y Rodrigo Macías Carreño"},
-            {id: "C16", name: "Esther Andrés Corrales y María del Pilar Blanco Saavedra"}
+            {id: "C16", name: "Esther Andrés Corrales y María del Pilar Blanco Saavedra"},
+            {id: "C17", name: "Sofía Yus Ferrero y Lia Lorenzana Carracedo"}
         ], about1: "Es imposible no reconocerlos, son inseparables."
         ,about2:"Si te digo la palabra dúo," +
         "es probable que se te vengan a la cabeza varios nombres de personas que han logrado forjar una gran amistad y que han permanecido unidos durante años," +
@@ -102,7 +103,7 @@ export default function Categorys (){
             {id: "D2", name: "Sandra Marcos Díez"},
             {id: "D3", name: "Lucía Pulgar Cordero"},
             {id: "D4", name: "Irene Bernardo Herrero"},
-            {id: "D5", name: "Pedro Veloso Sagües"},
+            {id: "D5", name: "Pedro Veloso Sagüés"},
             {id: "D6", name: "Alonso Rodríguez Ramos"},
             {id: "D7", name: "Nube Arias Rodríguez"},
             {id: "D8", name: "Erika Acebes Calvo"},
@@ -113,8 +114,8 @@ export default function Categorys (){
             {id: "D13", name: "Luana Carnero Garmón"},
             {id: "D14", name: "Carmen Saenz de Pipaon Serrano"},
             {id: "D15", name: "Aya Dahmouni Hadir"},
-            {id: "D16", name: "Carla Rodriguez Jáñez"},
-            {id: "D17", name: "Melina Del Rosario Miranda Mejia"}
+            {id: "D16", name: "Carla Rodríguez Jáñez"},
+            {id: "D17", name: "Melina Del Rosario Miranda Mejía"}
         ], about1: "Si existe algo más puro que estas personas, es la naturaleza, nada más."
         ,about2:"Todavía siguen conservando el niño que llevan dentro," +
         "y lo manifiestan muy a menudo. Estar a su lado sólo puede causar paz y felicidad."
@@ -123,22 +124,22 @@ export default function Categorys (){
         "Son personas lo más cercanas a la paz que hay y lo más probable es que se sientan culpables si te metes con ellos," +
         "así que más te vale no hacerlo",},
         { id: "E", title: "Bonachon 😁", color:"TitleBlue", nominados: [
-            {id: "E1", name: "Adrian Pelaez Fernandez"},
-            {id: "E2", name: "Hugo Barrientos Alvarez"},
-            {id: "E3", name: "Silvia Martinez Gonzalez"},
-            {id: "E4", name: "Sandra Marcos Diez"},
-            {id: "E5", name: "José Robles Flores"},
-            {id: "E6", name: "Adriana Urdiales Fernandez"},
+            {id: "E1", name: "Adrián Peláez Fernández"},
+            {id: "E2", name: "Hugo Barrientos Álvarez"},
+            {id: "E3", name: "Silvia Martínez González"},
+            {id: "E4", name: "Sandra Marcos Díez"},
+            {id: "E5", name: "José Robles Flórez"},
+            {id: "E6", name: "Adriana Urdiales Fernández"},
             {id: "E7", name: "Carmen Saenz de Pipaon Serrano"},
-            {id: "E8", name: "Pedro Veloso Sagües"},
-            {id: "E9", name: "Cecilia Diez Riaño"},
-            {id: "E10", name: "David Moran Suarez"},
-            {id: "E11", name: "Sushant Fernandez Dominguez"},
+            {id: "E8", name: "Pedro Veloso Sagüés"},
+            {id: "E9", name: "Cecilia Díez Riaño"},
+            {id: "E10", name: "David Morán Suárez"},
+            {id: "E11", name: "Sushant Fernández Domínguez"},
             {id: "E12", name: "Rebecca Corda Álvarez"},
             {id: "E13", name: "Irene Bernardo Herrero"},
             {id: "E14", name: "Carlos Llamazares Lorca"},
             {id: "E15", name: "Sara Jimenez Coray"},
-            {id: "E15", name: "Oliver Antonio Baez Pinales"}
+            {id: "E15", name: "Oliver Antonio Báez Pinales"}
         ], about1: "No hay que confundirlos con los inocentes. Los otros son ingenuos, estos no."
         ,about2:"Los bonachones se encargan de ayudar a la gente desinteresadamente y a repartir generosidad por el mundo entero." +
         "Son la definición de buenas personas." +
@@ -223,10 +224,10 @@ export default function Categorys (){
             {id: "J8", name: "Jorge San José Martínez"},
             {id: "J9", name: "Railin Yan"},
             {id: "J10", name: "Diego Yugueros López"},
-            {id: "J11", name: "Victor Alonso Pérez"},
+            {id: "J11", name: "Víctor Alonso Pérez"},
             {id: "J12", name: "Mateo Urdiales Landa"},
             {id: "J13", name: "Hazma Moataz Al Razouk"},
-            {id: "J14", name: "Alex Mayoral Fernandez"},
+            {id: "J14", name: "Alex Mayoral Fernández"},
             {id: "J15", name: "Awa Niasse Sene"},
             {id: "J16", name: "Jesús Bernardo Reguera"}
 
@@ -280,7 +281,7 @@ export default function Categorys (){
             {id: "L9", name: "Víctor Villayandre López"},
             {id: "L10", name: "Pelayo Prieto Carballo"},
             {id: "L11", name: "Javier Mondelo Gómez"},
-            {id: "L12", name: "Adrian Pelaez Fernandez"},
+            {id: "L12", name: "Adrián Peláez Fernández"},
             {id: "L13", name: "Miguel Ángel González Gago"}
             
         ], about1: "Son héroes, héroes que se sacrifican por la clase con un único cometido: hacer reír a todo el mundo, cueste lo que cueste."
