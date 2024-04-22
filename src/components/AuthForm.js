@@ -12,9 +12,9 @@ export const AuthForm = () => {
 
     const logIn = async () => {
         try {
-            signInWithEmailAndPassword(auth, email, password);
+            await signInWithEmailAndPassword(auth, email, password);
         } catch(err) {
-            console.error(err.message)
+            console.log(err.message)
             if (err.message === "Firebase: Error (auth/invalid-credential)."){
                 setError("Contraseña o correo incorrectos");
                 setErrorName("Error");
