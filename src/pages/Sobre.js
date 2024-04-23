@@ -6,11 +6,29 @@ export default function Sobre() {
         <div>
             <h1 className="Title">Sobre la gala de premios</h1>
             <p className="Info">
-            En total serán <span>12 premios</span>,
-            que serán entregados en persona en la gala que se celebrará el día <span>21 de junio</span>
-            en el <span>Salón de Actos del Ayuntamiento (Calle Alfonso V, 3 León, 24003)</span>.
-            La entrada será completamente <span>gratuita</span>.
+                El evento será de <span>6:00 a 8:30 de la tarde.</span> De 5:00 a 6:00 mientras se llena la sala,
+                en el hall habrá un photocall del público que vaya llegando.
+                Por ello, <span>se ha de ir bien vestido.</span>
             </p>
+            <p className="Info">
+                Como la entrada es totalmente gratis,
+                es necesario que, si pensáis llevar a alguien más con vosotros (familiar, amigo...)
+                lo comuniquéis, ya sea en persona o por DM en Instagram.
+            </p>
+            <p className="Info">
+                Además de llevarse a cabo la entrega de los diferentes premios,
+                también se realizarán otras actividades,
+                como actuaciones musicales y alguna que otra sorpresa que se irá revelando a lo largo de la gala.
+            </p>
+            <p className="Info">
+                <span>Es una fiesta de despedida.</span>
+            </p>
+            <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.0231605124804!2d-5.5765501233826384!3d42.59725212008273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd379a90cf134f93%3A0x624fe94dd3fa4278!2zQXYuIE9yZG_DsW8gSUksIDE1LCAyNDAwMSBMZcOzbg!5e0!3m2!1ses!2ses!4v1713823895377!5m2!1ses!2ses"
+            className="map" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
             <p className="Info">
             Además de llevarse a cabo la entrega de los diferentes premios,
             también se realizarán otras actividades,
@@ -40,7 +58,7 @@ export default function Sobre() {
                 que los premios sean lo más justos y reales posibles. Esperamos vuestra colaboración.
             </p>
             <p className="Info">
-                La votación se abrirá el <span>22/4/2024 y terminará el 30/4/2024</span>.
+                La votación se abrirá el <span>24/4/2024 y terminará el 30/4/2024</span>.
             </p>
             <p className="Info">
                 La segunda votación se abrirá el <span>15/5/2024 y terminará el 10/6/2024</span>.

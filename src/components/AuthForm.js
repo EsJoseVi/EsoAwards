@@ -28,7 +28,10 @@ export const AuthForm = () => {
 
     return (
         <div className="PageContainer">
-            <h2 className="Title">Inicia sesion usando tu correo de @educal.jcyl.es y tu contraseña UNICA del evento</h2>
+            <h2 className="Info">
+                Inicia sesión usando tu correo de @educa.jcyl.es
+                La contraseña la eliges tú.
+            </h2>
             <div className="FormContainer">
                 <p className={errorName}>{error}</p>
                 <input
@@ -47,6 +50,10 @@ export const AuthForm = () => {
                 />
                 <button className="LoginButton" onClick={logIn}>Iniciar Sesion</button>
             </div>
+            <p className="Info">
+                si tienes algún problema con este correo, 
+                tendrás que avisarnos al DM y darnos otro correo para que puedas votar                Acuérdate de ella para poder votar la segunda vez.
+            </p>
         </div>
     )
 }

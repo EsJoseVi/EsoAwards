@@ -309,3 +309,10 @@ a[href^="https://www.instagram.com"] {
     background-repeat: no-repeat;
     padding-left: 2.2rem;
 }
+
+.map {
+    border: 0.5rem;
+    border-style: solid;
+    border-color: #281259;
+    border-radius: 1rem;
+}

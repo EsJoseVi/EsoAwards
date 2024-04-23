@@ -4,7 +4,7 @@ import Instagram from "../components/Instagram"
 
 
 function getTime(){
-    const endtime = 'April 22 2024 17:30:00 ';
+    const endtime = 'April 24 2024 15:30:00 ';
     const total = Date.parse(endtime) - Date.parse(new Date());
     const seconds = Math.floor( (total/1000) % 60 );
     const minutes = Math.floor( (total/1000/60) % 60 );
