@@ -194,6 +194,7 @@ input[type="radio"]:checked::before {
     border-radius: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    margin-top: 3rem;
 }
 
 .about1 {

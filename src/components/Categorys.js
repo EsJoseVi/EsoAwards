@@ -198,7 +198,7 @@ export default function Categorys (){
             {id: "I1", name: "Electricity: Cuando lograron que se fuera la electricidad de todo el edificio."},
             {id: "I2", name: "Firefloor: En su momento el gel hidroalcohólico fue un perfecto combustible para una hoguera en mitad de una clase."},
             {id: "I3", name: "Fireball: Alguien decidió tirar por una ventana una bola de papel en llamas, que por poco no cayó en la cabeza de una profesora."},
-            {id: "I4", name: "1945: Una clase quedó clausurada por grafitear esvásticas en su interior. 5. CSI: Vaper: Hubo una vez un Vaper que fue pasando de boca en boca, y jefatura se empeñó"},
+            {id: "I4", name: "1945: Una clase quedó clausurada por grafitear esvásticas en su interior."},
             {id: "I5", name: "CSI: Vaper: Hubo una vez un Vaper que fue pasando de boca en boca, y jefatura se empeñó en que iba a encontrar a todo culpable que hubiera estado con él."},
             {id: "I6", name: "El petardo: Una vez, en medio del instituto, a alguien se le ocurrió prender un gran petardo que acabó retumbando en el centro."},
             {id: "I7", name: "El portátil: No fue una liada en sí, porque nunca ocurrió, pero el simple hecho de que nos tuvieran encerrados y nos cachearan para que luego resultara que el portátil no había sido robado, si no olvidado, se puede considerar liada."},
