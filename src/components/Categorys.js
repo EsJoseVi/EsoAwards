@@ -4,6 +4,7 @@ import { addDoc, collection } from "firebase/firestore"
 import { auth } from "../FireBaseConfig"
 import { deleteUser, onAuthStateChanged } from "firebase/auth"
 import { useState } from "react"
+import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom"
 
 export default function Categorys (){
@@ -227,9 +228,8 @@ export default function Categorys (){
             {id: "J11", name: "Víctor Alonso Pérez"},
             {id: "J12", name: "Mateo Urdiales Landa"},
             {id: "J13", name: "Hazma Moataz Al Razouk"},
-            {id: "J14", name: "Alex Mayoral Fernández"},
-            {id: "J15", name: "Awa Niasse Sene"},
-            {id: "J16", name: "Jesús Bernardo Reguera"}
+            {id: "J14", name: "Awa Niasse Sene"},
+            {id: "J15", name: "Jesús Bernardo Reguera"}
 
         ], about1: "Hay personas que no temen a excederse con sus acciones." +
         "Son libres, y su instinto de rebeldía es superior a todo lo demás." +
@@ -297,10 +297,13 @@ export default function Categorys (){
     const navigate = useNavigate();
     const voteRef = collection(db, "Test")
     const  [vote, setVote] = useState({ A: "", B: "", C:"", D:"", E:"", F:"", G:"", H:"", I:"", J:"", K:"", L:""});
+    const [button, setButton] = useState("SubmitVoteButton")
 
     const SubmitVote = async () => {
         if (usuario){
+            setButton("none")
             await addDoc(voteRef, {Votos: vote, User: mail} )
+            signOut(auth)
             await deleteUser(usuario)
             navigate("/gracias")
         }
@@ -336,7 +339,7 @@ export default function Categorys (){
                     </form>
                 </>
             ))}
-            <button className="SubmitVoteButton" onClick={SubmitVote}>Enviar Votos</button>
+            <button className={button} onClick={SubmitVote}>Enviar Votos</button>
         </div>
     )
 }

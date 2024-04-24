@@ -317,3 +317,7 @@ a[href^="https://www.instagram.com"] {
     border-color: #281259;
     border-radius: 1rem;
 }
+
+.none {
+    display: none;
+}
