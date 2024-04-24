@@ -6,7 +6,7 @@ export default function Sobre() {
         <div>
             <h1 className="Title">Sobre la gala de premios</h1>
             <p className="Info">
-                El evento será de <span>6:00 a 8:30 de la tarde.</span> De 5:00 a 6:00 mientras se llena la sala,
+                El evento será el 21 de junio de <span>6:00 a 8:30 de la tarde.</span> De 5:00 a 6:00 mientras se llena la sala,
                 en el hall habrá un photocall del público que vaya llegando.
                 Por ello, <span>se ha de ir bien vestido.</span>
             </p>
@@ -29,11 +29,6 @@ export default function Sobre() {
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
             </iframe>
-            <p className="Info">
-            Además de llevarse a cabo la entrega de los diferentes premios,
-            también se realizarán otras actividades,
-            como <span>actuaciones musicales</span> y <span>alguna que otra sorpresa</span> que se irá revelando a lo largo de la gala.
-            </p>
             <p className="Info">
                 El presentador de la gala será:
             </p>

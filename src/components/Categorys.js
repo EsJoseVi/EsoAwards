@@ -97,7 +97,7 @@ export default function Categorys (){
         "logrando crear un dúo icónico que quedará por el resto de la eternidad en la mente de las personas."
         ,about3:"Premio dedicado al dúo de la eso." +
         "Esas personas que difícilmente las ves distanciadas," +
-        "dy que siempre que están juntos generan felicidad en su entorno."},
+        "y que siempre que están juntos generan felicidad en su entorno."},
         { id: "D", title: "Inocente de la ESO 🕊️", color:"TitleGreen", nominados: [
             {id: "D1", name: "Sergio Furones"},
             {id: "D2", name: "Sandra Marcos Díez"},
@@ -123,7 +123,7 @@ export default function Categorys (){
         "Esa persona ingenua que aún conserva su lado más puro." +
         "Son personas lo más cercanas a la paz que hay y lo más probable es que se sientan culpables si te metes con ellos," +
         "así que más te vale no hacerlo",},
-        { id: "E", title: "Bonachon 😁", color:"TitleBlue", nominados: [
+        { id: "E", title: "Bonachón 😁", color:"TitleBlue", nominados: [
             {id: "E1", name: "Adrián Peláez Fernández"},
             {id: "E2", name: "Hugo Barrientos Álvarez"},
             {id: "E3", name: "Silvia Martínez González"},
@@ -206,12 +206,12 @@ export default function Categorys (){
             {id: "I9", name: "Carta Interceptada: Una persona le envio una carta deseandole curiosa a un compañero, y la profesora intercepto dicha carta para luego leerla delante de toda la clase."},
             {id: "I10", name: "¡Platano Va!: En una clase tiraron un platano pocho contra el techo y se quedo pegado."},
             {id: "I11", name: "Boquete: un alumno hizo un boquete en una de las paredes."},
-            {id: "I11", name: "Baño de papel: Una vez varias personas se ocuparon de dejar el baño lleno de papel mojado."},
-            {id: "I12", name: "Instituto en cuarentena: A primera hora nos encontramos el instituto cerrado por que alguien habia echado pegamento a las cerraduras."}
-        ], about1: "La rutina escolar puede llegar a ser aburrida y repetitiva con el paso del tiempo..." +
+            {id: "I12", name: "Baño de papel: Una vez varias personas se ocuparon de dejar el baño lleno de papel mojado."},
+            {id: "I13", name: "Instituto en cuarentena: A primera hora nos encontramos el instituto cerrado por que alguien habia echado pegamento a las cerraduras."}
+        ],about2: "La rutina escolar puede llegar a ser aburrida y repetitiva con el paso del tiempo..." +
         "Por ello, de vez en cuando hay que condimentarla para que la monótona vida del estudiante se vuelva un poco más interesante," +
         "aunque eso conlleve el riesgo de acabar con un parte."
-        ,about2:"¿A quién no le gusta el riesgo cuando hay diversión de por medio?"
+        ,about1:"¿A quién no le gusta el riesgo cuando hay diversión de por medio?"
         ,about3:"Las liadas nominadas son:"},
         { id: "J", title: "Liante de la ESO 🦹🏻‍♂️", color:"Default", nominados: [
             {id: "J1", name: "Martín Robles Franco"},
@@ -259,7 +259,7 @@ export default function Categorys (){
             {id: "K15", name: "Alicia Conty Castro"}
         ], about1: 'Disciplina y constancia.' +
         'Estas personas no han fallado ni un sólo curso en su cometido,' +
-        'y encima lo han cumplido por lo alto.' +
+        'y encima lo han cumplido por lo alto. ' +
         'los "TERMINATORS" de la ESO'
         ,about2:'A todos nos da pereza estudiar, pero hay gente,' +
         'guerreros en este mundo, que son capaces de combatir ese aburrimiento y derrotarlo.' +
