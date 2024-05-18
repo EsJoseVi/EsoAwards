@@ -56,7 +56,7 @@ export default function Sobre() {
                 La votación se abrirá el <span>24/4/2024 y terminará el 30/4/2024</span>.
             </p>
             <p className="Info">
-                La segunda votación se abrirá el <span>15/5/2024 y terminará el 10/6/2024</span>.
+                La segunda votación se abrirá el <span>20/5/2024 y terminará el 10/6/2024</span>.
                 En esta última votación, de los 4-5 nominados que hayan salido en cada premio, se elegirá al
                 ganador.
             </p>
