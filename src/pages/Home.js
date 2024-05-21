@@ -3,7 +3,7 @@ import Instagram from "../components/Instagram"
 import { useState } from "react";
 
 function getTime(){
-    const endtime = 'May 20 2024 17:30:00 ';
+    const endtime = 'May 22 2024 18:30:00 ';
     const total = Date.parse(endtime) - Date.parse(new Date());
     const seconds = Math.floor( (total/1000) % 60 );
     const minutes = Math.floor( (total/1000/60) % 60 );

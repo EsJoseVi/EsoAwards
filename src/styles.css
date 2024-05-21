@@ -15,7 +15,7 @@ body {
 }
 
 .site-title {
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 
 .nav {
@@ -33,7 +33,7 @@ body {
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .nav a {
@@ -47,6 +47,11 @@ body {
     padding: .25rem;
 
 }
+
+.nav li {
+    font-size: 1.5rem;
+}
+
 .nav li :hover{
     color: #C04BF2;
 }
@@ -59,18 +64,19 @@ body {
 
 .form-label {
     font-family: poppins;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    line-height: 1.1;
-    margin-left: 1rem;
+    line-height: 2rem;
+    margin-left: 1.2rem;
 }
+
 
 .Candidatos {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: left;
-    padding: 0.5rem;
+    padding: 0.6rem;
 }
 
 input[type="radio"] {
@@ -79,8 +85,8 @@ input[type="radio"] {
     margin: 0;
     font: inherit;
     color: currentColor;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border: 0.15em solid currentColor;
     border-radius: 50%;
     transform: translateY(-0.075em);
@@ -91,8 +97,8 @@ input[type="radio"] {
 
 input[type="radio"]::before {
     content: "";
-    width: 0.65em;
-    height: 0.65em;
+    width: 1em;
+    height: 1em;
     border-radius: 50%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
@@ -104,82 +110,82 @@ input[type="radio"]:checked::before {
 }
 
 .Default {
-    font-size: 1.8rem;
+    font-size: 4rem;
     font-family: poppins;
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: white;
     background-color: #281259;
     text-align: center;
 }
 
 .TitlePink {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: poppins;
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: white;
     background-color: #591259;
     text-align: center;
 }
 
 .TitleRed {
-    font-size: 1.9rem;
+    font-size: 4rem;
     font-family: poppins;
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: white;
     background-color: #ff0000;
     text-align: center;
 }
 
 .TitleBlack {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: poppins;
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: white;
     background-color: #000000;
     text-align: center;
 }
 
 .TitleGolden {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: poppins;
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: white;
     background-color: #e6c619;
     text-align: center;
 }
 
 .TitleGreen {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: poppins;
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: rgb(255, 255, 255);
     background-color: #00ff00;
     text-align: center;
 }
 
 .TitleBlue {
-    font-size: 1.9rem;
+    font-size: 4rem;
     font-family: poppins;
     margin: 0;
     padding-left: 0.1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: rgb(255, 255, 255);
     background-color: #1100ff;
     text-align: center;
 }
 
 .TitleBrown {
-    font-size: 1.9rem;
+    font-size: 4rem;
     font-family: poppins;
     margin: 0;
     padding-left: 0.1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: rgb(255, 255, 255);
     background-color: #423116;
     text-align: center;
@@ -189,30 +195,31 @@ input[type="radio"]:checked::before {
     background-color: #281259;
     color: white;
     border-width: 0;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-family: poppins;
-    border-radius: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-top: 3rem;
+    border-radius: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .about1 {
     font-family: poppins;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: left;
 }
 
 .about2 {
     font-family: poppins;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: left;
 }
 
 .about3 {
     font-family: poppins;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: left;
 }
@@ -228,6 +235,8 @@ input[type="radio"]:checked::before {
 
 .Title {
     font-family: poppins;
+    font-size: 4rem;
+    margin: 0;
 }
 
 .Footer {
@@ -236,7 +245,7 @@ input[type="radio"]:checked::before {
     bottom: 0;
     width: 100%;
     font-family: monospace;
-    font-size: 1rem;
+    font-size: 1.5rem;
     height: 4rem;
 }
 
@@ -247,7 +256,8 @@ input[type="radio"]:checked::before {
     margin: 1rem;
     padding: .5rem;
     font-size: 1.5rem;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
+    border-width: 0.2rem;
 }
 
 .FormContainer {
@@ -289,7 +299,7 @@ input[type="radio"]:checked::before {
 
 .Info {
     font-family: poppins;
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -320,4 +330,316 @@ a[href^="https://www.instagram.com"] {
 
 .none {
     display: none;
+}
+
+@media (max-width: 8px) {
+    .site-title {
+        font-size: 1.8rem;
+    }
+    
+    .nav {
+        background-color: #070926;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+    
+    .nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .nav a {
+        color: inherit;
+        font-family: poppins;
+        text-decoration: none;
+        font-weight: 400;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: .25rem;
+    
+    }
+    .nav li :hover{
+        color: #C04BF2;
+    }
+    
+    .Categorys {
+        justify-content: center;
+        align-items: center;
+        padding: 0rem;
+    }
+    
+    .form-label {
+        font-family: poppins;
+        font-size: rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+        margin-left: 1rem;
+    }
+    
+    
+    .Candidatos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        padding: 0.5rem;
+    }
+    
+    input[type="radio"] {
+        appearance: none;
+        background-color: #ffffff;
+        margin: 0;
+        font: inherit;
+        color: currentColor;
+        width: 10px;
+        height: 10px;
+        border: 0.15em solid currentColor;
+        border-radius: 50%;
+        transform: translateY(-0.075em);
+    
+        display: grid;
+        place-content: center;
+    }
+    
+    input[type="radio"]::before {
+        content: "";
+        width: 0.65em;
+        height: 0.65em;
+        border-radius: 50%;
+        transform: scale(0);
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 1em 1em #281259;
+    }
+    
+    input[type="radio"]:checked::before {
+        transform: scale(1);
+    }
+    
+    .Default {
+        font-size: 1.8rem;
+        font-family: poppins;
+        margin: 0;
+        margin-bottom: 1rem;
+        color: white;
+        background-color: #281259;
+        text-align: center;
+    }
+    
+    .TitlePink {
+        font-size: 2rem;
+        font-family: poppins;
+        margin: 0;
+        margin-bottom: 1rem;
+        color: white;
+        background-color: #591259;
+        text-align: center;
+    }
+    
+    .TitleRed {
+        font-size: 1.9rem;
+        font-family: poppins;
+        margin: 0;
+        margin-bottom: 1rem;
+        color: white;
+        background-color: #ff0000;
+        text-align: center;
+    }
+    
+    .TitleBlack {
+        font-size: 2rem;
+        font-family: poppins;
+        margin: 0;
+        margin-bottom: 1rem;
+        color: white;
+        background-color: #000000;
+        text-align: center;
+    }
+    
+    .TitleGolden {
+        font-size: 2rem;
+        font-family: poppins;
+        margin: 0;
+        margin-bottom: 1rem;
+        color: white;
+        background-color: #e6c619;
+        text-align: center;
+    }
+    
+    .TitleGreen {
+        font-size: 2rem;
+        font-family: poppins;
+        margin: 0;
+        margin-bottom: 1rem;
+        color: rgb(255, 255, 255);
+        background-color: #00ff00;
+        text-align: center;
+    }
+    
+    .TitleBlue {
+        font-size: 1.9rem;
+        font-family: poppins;
+        margin: 0;
+        padding-left: 0.1rem;
+        margin-bottom: 1rem;
+        color: rgb(255, 255, 255);
+        background-color: #1100ff;
+        text-align: center;
+    }
+    
+    .TitleBrown {
+        font-size: 1.9rem;
+        font-family: poppins;
+        margin: 0;
+        padding-left: 0.1rem;
+        margin-bottom: 1rem;
+        color: rgb(255, 255, 255);
+        background-color: #423116;
+        text-align: center;
+    }
+    
+    .SubmitVoteButton {
+        background-color: #281259;
+        color: white;
+        border-width: 0;
+        font-size: 1.5rem;
+        font-family: poppins;
+        border-radius: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .about1 {
+        font-family: poppins;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    .about2 {
+        font-family: poppins;
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+    .about3 {
+        font-family: poppins;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: left;
+    }
+    .container {
+        margin: 1rem;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+    
+    .active {
+        background-color: #281259;
+    }
+    
+    .Title {
+        font-family: poppins;
+    }
+    
+    .Footer {
+        padding-left: 1.5rem;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-family: monospace;
+        font-size: 1rem;
+        height: 4rem;
+    }
+    
+    .InputField {
+        color: #070926;
+        background-color: #ffffff;
+        border-color: #070926;
+        margin: 1rem;
+        padding: .5rem;
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+    
+    .FormContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .LoginButton {
+        font-size: 1.5rem;
+        background-color: #281259;
+        color: #ffffff;
+        border-radius: 2rem;
+        padding: .75rem;
+        margin: 1rem;
+        border-width: 0rem;
+        font-family: poppins;
+    }
+    
+    .Error {
+        font-family: poppins;
+        background-color: red;
+        color: white;
+        margin: 0px;
+        padding: 1rem;
+        width: 30rem;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    
+    .page-contaniner {
+        position: relative;
+        min-height: 100vh;
+    }
+    
+    .Info {
+        font-family: poppins;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .Info span{
+        font-weight: bold;
+    }
+    
+    .Info :link {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #591259;
+    }
+    
+    a[href^="https://www.instagram.com"] {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png?20200512141346");
+        background-size: 1.7rem 1.7rem;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        padding-left: 2.2rem;
+    }
+    
+    .map {
+        border: 0.5rem;
+        border-style: solid;
+        border-color: #281259;
+        border-radius: 1rem;
+    }
+    
+    .none {
+        display: none;
+    }
 }
