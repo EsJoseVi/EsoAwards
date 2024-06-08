@@ -9,6 +9,7 @@ export default function Navbar() {
         <ul>
             <CustomLink to="/sobre">Sobre</CustomLink>
             <CustomLink to="/votar">Votar</CustomLink>
+            <CustomLink to="/patrocinadores">Patrocinadores</CustomLink>
         </ul>
     </nav>
 }

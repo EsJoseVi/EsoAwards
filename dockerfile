@@ -8,7 +8,7 @@ RUN npm install
 
 RUN npm install -g serve
 
-COPY . .
+COPY ./build .
 
 EXPOSE 80
 

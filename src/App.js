@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Thanks from "./pages/Thanks";
 import { signOut } from "firebase/auth";
 import { auth } from "./FireBaseConfig";
+import Partners from "./pages/Partners";
 
 function App() {
   window.addEventListener("beforeunload", (ev) => {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/votar" element={<Votar />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/gracias" element={<Thanks />} />
+          <Route path="/patrocinadores" element={<Partners />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </div>

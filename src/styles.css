@@ -237,6 +237,8 @@ input[type="radio"]:checked::before {
     font-family: poppins;
     font-size: 4rem;
     margin: 0;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .Footer {
@@ -305,6 +307,8 @@ input[type="radio"]:checked::before {
 
 .Info span{
     font-weight: bold;
+    font-family: poppins;
+    text-align: center;
 }
 
 .Info :link {
@@ -332,9 +336,14 @@ a[href^="https://www.instagram.com"] {
     display: none;
 }
 
-@media (max-width: 8px) {
+hr {
+    border: 1rem solid #281259;
+    border-radius: 1rem;
+}
+
+@media (max-width: 800px) {
     .site-title {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
     
     .nav {
@@ -352,7 +361,7 @@ a[href^="https://www.instagram.com"] {
         margin: 0;
         list-style: none;
         display: flex;
-        gap: 1rem;
+        gap: 0.1rem;
     }
     
     .nav a {
@@ -365,6 +374,10 @@ a[href^="https://www.instagram.com"] {
         align-items: center;
         padding: .25rem;
     
+    }
+
+    .nav li {
+        font-size: 0.9rem;
     }
     .nav li :hover{
         color: #C04BF2;
@@ -549,6 +562,8 @@ a[href^="https://www.instagram.com"] {
     
     .Title {
         font-family: poppins;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
     
     .Footer {
@@ -641,5 +656,10 @@ a[href^="https://www.instagram.com"] {
     
     .none {
         display: none;
+    }
+
+    hr {
+        border: 1rem solid #281259;
+        border-radius: 1rem;
     }
 }
