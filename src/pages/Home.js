@@ -3,7 +3,7 @@ import Instagram from "../components/Instagram"
 import { useState } from "react";
 
 function getTime(){
-    const endtime = 'June 15 2024 0:0:00 ';
+    const endtime = 'June 21 2024 17:0:00 ';
     const total = Date.parse(endtime) - Date.parse(new Date());
     const seconds = Math.floor( (total/1000) % 60 );
     const minutes = Math.floor( (total/1000/60) % 60 );
@@ -34,7 +34,7 @@ export default function Home (){
         <div>
             <h1 className="Title">BIENVENIDOS A LOS ESO AWARDS</h1>
             <p className="Info">
-                Quedan <span>{day} d : {hours} h : {minutes} m : {seconds} s</span> para que acabaen las II votaciones.
+                Quedan <span>{day} d : {hours} h : {minutes} m : {seconds} s</span> para que comienze la gala.
             </p>
             <hr></hr>
             <div>
